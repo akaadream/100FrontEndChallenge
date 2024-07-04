@@ -17,3 +17,86 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 24px;
+    top: 24px;
+
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 12px;
+
+    transition: 0.2s;
+    cursor: pointer;
+    outline: 2px solid transparent;
+}
+
+.menu-button:hover {
+    outline-color: #27272799;
+    transform: scale(1.08);
+}
+
+.menu-button-line,
+.menu-button-line::before,
+.menu-button-line::after {
+    width: 50%;
+    height: 2px;
+    background: #272727;
+    transition: 0.5s;
+}
+
+.menu-button-line::before,
+.menu-button-line::after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+}
+
+.menu-button-line::before {
+    top: 16px;
+}
+
+.menu-button-line::after {
+    bottom: 16px;
+}
+
+#previous-challenge,
+#next-challenge {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    bottom: 24px;
+    border-radius: 48px;
+
+    font-family: sans-serif !important;
+    font-size: 0.9em;
+    font-weight: 600;
+
+    background-color: white;
+    outline: 2px solid transparent;
+    transition: 0.2s;
+}
+
+#previous-challenge:hover,
+#next-challenge:hover {
+    transform: scale(1.04);
+    outline-color: #27272799;
+}
+
+#previous-challenge {
+    left: 24px;
+}
+
+#next-challenge {
+    right: 24px;
+}

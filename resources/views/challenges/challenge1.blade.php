@@ -3,7 +3,8 @@
 @section('title', 'Challenge 1')
 
 @section('styles')
-    @vite(['resources/css/challenges/challenge_1.css'])
+{{--    @vite(['resources/css/challenges/challenge_1.css'])--}}
+    <link rel="stylesheet" href="{{ url('build/assets/challenge_1-ChM2CrPq.css') }}">
 @endsection
 
 @section('content')

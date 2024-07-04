@@ -9,7 +9,8 @@
         <title>100 challenges - @yield('title')</title>
 
         <script src="https://kit.fontawesome.com/c0bdc5a6b6.js" crossorigin="anonymous"></script>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+{{--        @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
+        <link rel="stylesheet" href="{{ url('build/assets/app-Dq4qpqmH.css') }}">
         @yield('styles')
     </head>
 

@@ -16,6 +16,6 @@ class ChallengesController extends Controller
             return back();
         }
 
-        return view('challenges.challenge' . $id);
+        return view('challenges.challenge' . $id, compact('id'));
     }
 }

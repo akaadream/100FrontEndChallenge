@@ -3,7 +3,9 @@
 @section('title', 'Challenge 2')
 
 @section('styles')
-    @vite(['resources/css/challenges/challenge_2.css', 'resources/js/challenges/challenge_2.js'])
+{{--    @vite(['resources/css/challenges/challenge_2.css', 'resources/js/challenges/challenge_2.js'])--}}
+    <link rel="stylesheet" href="{{ url('build/assets/challenge_2-epx_8YDg.css') }}">
+    <script src="{{ url('build/assets/challenge_2-B14MInTj.js') }}"></script>
 @endsection
 
 @section('content')
