@@ -1,0 +1,29 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Dq4qpqmH.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/challenges/challenge_1.css": {
+    "file": "assets/challenge_1-ChM2CrPq.css",
+    "src": "resources/css/challenges/challenge_1.css",
+    "isEntry": true
+  },
+  "resources/css/challenges/challenge_2.css": {
+    "file": "assets/challenge_2-epx_8YDg.css",
+    "src": "resources/css/challenges/challenge_2.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C1-XIpUa.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/challenges/challenge_2.js": {
+    "file": "assets/challenge_2-B14MInTj.js",
+    "name": "challenge_2",
+    "src": "resources/js/challenges/challenge_2.js",
+    "isEntry": true
+  }
+}
