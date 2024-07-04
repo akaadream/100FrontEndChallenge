@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4dab3;
+}
+
+.card {
+    min-width: 200px;
+    max-width: 450px;
+    background-color: white;
+
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: perspective(900px) translateY(-1%) rotateX(10deg) translateZ(0);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.card-header > img {
+    position: absolute;
+    user-select: none;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.card-avatar {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 24px;
+
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+}
+
+.card-avatar > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 28px;
+}
+
+.card-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.card-username {
+    color: #666666;
+    font-size: 0.95em;
+}
+
+.card-description {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 180px;
+    height: 48px;
+
+    background-color: #dc3f8b;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #96334f;
+}
+
+.card-button.simple {
+    border: 2px solid #999999;
+    background-color: transparent;
+    color: #999999;
+}
+
+.card-button.simple:hover {
+    border-color: #666666;
+    color: #666666;
+}
+
+.card-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.card-network:hover {
+    color: #333333;
+}
+
+.card-network {
+    padding: 8px;
+    margin: 4px;
+}
+
+.fa-brands {
+    font-size: 24px;
+}
