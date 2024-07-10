@@ -13,7 +13,7 @@
     </a>
     @endif
 
-    @if ($id < 2)
+    @if ($id < 100)
         <a href="{{ route('challenges.index', $id + 1) }}" id="next-challenge" class="button-link">
             Next challenge
         </a>

@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-Dq4qpqmH.css",
+    "file": "assets/app-CTUIl6Ik.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -14,6 +14,32 @@
     "src": "resources/css/challenges/challenge_2.css",
     "isEntry": true
   },
+  "resources/css/challenges/challenge_3.css": {
+    "file": "assets/challenge_3-C-bWWo6t.css",
+    "src": "resources/css/challenges/challenge_3.css",
+    "isEntry": true
+  },
+  "resources/css/challenges/challenge_4.css": {
+    "file": "assets/challenge_4-C9gJFKEA.css",
+    "src": "resources/css/challenges/challenge_4.css",
+    "isEntry": true
+  },
+  "resources/css/challenges/challenge_5.css": {
+    "file": "assets/challenge_5-BUs4ps4d.css",
+    "src": "resources/css/challenges/challenge_5.css",
+    "isEntry": true
+  },
+  "resources/css/challenges/challenge_6.css": {
+    "file": "assets/challenge_6-l0sNRNKZ.js",
+    "name": "challenge_6",
+    "src": "resources/css/challenges/challenge_6.css",
+    "isEntry": true
+  },
+  "resources/css/challenges/challenge_9.css": {
+    "file": "assets/challenge_9-BgLHOPnY.css",
+    "src": "resources/css/challenges/challenge_9.css",
+    "isEntry": true
+  },
   "resources/js/app.js": {
     "file": "assets/app-C1-XIpUa.js",
     "name": "app",
@@ -24,6 +50,18 @@
     "file": "assets/challenge_2-B14MInTj.js",
     "name": "challenge_2",
     "src": "resources/js/challenges/challenge_2.js",
+    "isEntry": true
+  },
+  "resources/js/challenges/challenge_4.js": {
+    "file": "assets/challenge_4-CRT6j3NZ.js",
+    "name": "challenge_4",
+    "src": "resources/js/challenges/challenge_4.js",
+    "isEntry": true
+  },
+  "resources/js/challenges/challenge_9.js": {
+    "file": "assets/challenge_9-BhGMGz4H.js",
+    "name": "challenge_9",
+    "src": "resources/js/challenges/challenge_9.js",
     "isEntry": true
   }
 }

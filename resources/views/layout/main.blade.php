@@ -9,16 +9,22 @@
         <title>100 challenges - @yield('title')</title>
 
         <script src="https://kit.fontawesome.com/c0bdc5a6b6.js" crossorigin="anonymous"></script>
-{{--        @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
-        <link rel="stylesheet" href="{{ url('build/assets/app-Dq4qpqmH.css') }}">
+
+        @if (\Illuminate\Foundation\Application::getInstance()->isLocal())
+            @vite(['resources/css/app.css', 'resources/js/app.js'])
+            @isset($id)
+                @vite(['resources/css/challenges/challenge_' . $id . '.css', 'resources/js/challenges/challenge_' . $id . '.js'])
+            @endisset
+        @else
+            <link rel="stylesheet" href="{{ url('build/assets/app-CTUIl6Ik.css') }}">
+        @endif
+
         @yield('styles')
     </head>
 
     <body>
         @include('layout.nav')
 
-        <div id="page">
-            @yield('content')
-        </div>
+        @yield('content')
     </body>
 </html>

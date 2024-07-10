@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("phone-input");e&&e.addEventListener("keydown",()=>{const t=e.value;e.value=n(t)})});function n(e){return e.replace(/\s/g,"").replace(/\d{2}(?=.)/g,"$& ")}
